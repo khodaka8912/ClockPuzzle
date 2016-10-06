@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_marginTop="100px"
+        android:background="@android:color/black"
+        android:id="@+id/frame"
+        android:layout_width="900px"
+        android:layout_height="900px"
+        android:columnCount="3"
+        android:layout_centerHorizontal="true"
+        android:rowCount="3">
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view1"
+            android:layout_margin="1px"
+            android:paddingTop="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view2"
+            android:layout_margin="1px"
+            android:paddingTop="0px"
+            android:paddingLeft="1px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view3"
+            android:layout_margin="1px"
+            android:paddingTop="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view4"
+            android:layout_margin="1px"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view5"
+            android:layout_margin="1px"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view6"
+            android:layout_margin="1px"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="-100px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view7"
+            android:layout_margin="1px"
+            android:clickable="true"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="0px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view8"
+            android:layout_margin="1px"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="0px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+        <watanabe.hw.hodaka.digitalclock.view.ClockView
+            android:id="@+id/clock_view9"
+            android:layout_margin="1px"
+            android:paddingTop="-100px"
+            android:paddingLeft="0px"
+            android:paddingRight="-100px"
+            android:paddingBottom="0px"
+            android:layout_width="300px"
+            android:layout_height="300px" />
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/clear"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/frame"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

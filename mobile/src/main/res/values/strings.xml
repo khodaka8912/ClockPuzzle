@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DigitalClock</string>
+    <string name="reset">Reset</string>
+    <string name="clear">Clear!</string>
+    <string name="preferences">Preferences</string>
+    <string name="start">Start</string>
+    <string name="font_bold">Bold</string>
+</resources>

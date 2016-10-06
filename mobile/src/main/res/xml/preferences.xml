@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Font">
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Type"
+            android:entries="@array/font_types"
+            android:entryValues="@array/font_types"
+            android:key="font_type" />
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Color"
+            android:entries="@array/font_color"
+            android:entryValues="@array/font_color"
+            android:key="font_color" />
+        <SwitchPreference
+            android:key="font_bold"
+            android:title="@string/font_bold"
+            />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="Italic"
+            android:key="font_italic" />
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Size"
+            android:key="font_size"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Background">
+    <ListPreference
+        android:defaultValue="1"
+        android:title="Color"
+        android:entries="@array/font_color"
+        android:entryValues="@array/font_color"
+        android:key="bg_color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="Gravity"
+            android:key="gravity" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="Show Number"
+            android:key="show_number" />
+    </PreferenceCategory>
+</PreferenceScreen>

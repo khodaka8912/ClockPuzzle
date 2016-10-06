@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:clickable="true"
+    android:clipChildren="false">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/number"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:textColor="@android:color/darker_gray"
+        android:text="Hello World!" />
+
+    <TextView
+        android:layout_marginEnd="-300px"
+        android:id="@+id/clock"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:text="Hello World!" />
+
+
+</RelativeLayout>
